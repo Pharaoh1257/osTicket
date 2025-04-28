@@ -47,25 +47,25 @@ Next, install the PHP Manager web platform installer and the supported files nee
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wBifm6s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, located inside the same unzipped folder on the desktop, install the C++ redistributable file, which is a requirement needed for the osTicket to use. Note: all of these files needed for osTicket can be found on the osTicket documentation.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yfWflAj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, install the MySQL file and make sure to click "Typical" at the installation setup screen and click next, then launch the MySQL program, and make sure to click "standard configuration" and follow the proceeding steps. The MySQL file is a database that osTicket will store all of the information in, such as user accounts, ticket information, etc, on the back end. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6EZivmg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+To configure the osTicket permissions, rename the configuration hard drive file to "osT config.php". Open up File Explorer, go to the C-drive, and locate the file named "ost sample config". After renaming the file, assign the permissions for osTicket to make changes to this file on the backend. So right click it and go to properties, then go to the security tab and click advanced. Then click "disable inheritance" to remove all permissions and assign new ones. Afterwards, click add (to add new permissions) and assign permissions to whichever user, group, or principal, then click ok, then continue to follow the prompts for the osTicket installation setup. 
 </p>
 <br />
